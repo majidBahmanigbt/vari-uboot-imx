@@ -78,7 +78,7 @@
 };
 
 &gpio3 {
-	u-boot,dm-spl;
+	status = "disabled";
 };
 
 &gpio4 {
