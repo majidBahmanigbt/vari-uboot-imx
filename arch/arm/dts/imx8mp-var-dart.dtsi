@@ -85,10 +85,6 @@
 	};
 };
 
-&gpio3 {
-	status = "disabled";
-};
-
 &iomuxc {
 	pinctrl_eqos: eqosgrp {
 		fsl,pins = <

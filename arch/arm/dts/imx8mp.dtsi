@@ -488,8 +488,8 @@
 			gpio3: gpio@30220000 {
 				compatible = "fsl,imx8mp-gpio", "fsl,imx35-gpio";
 				reg = <0x30220000 0x10000>;
-				interrupts = <GIC_SPI 68 IRQ_TYPE_LEVEL_HIGH>,
-					     <GIC_SPI 69 IRQ_TYPE_LEVEL_HIGH>;
+				interrupts = <2 IRQ_TYPE_LEVEL_HIGH>,
+					     <3 IRQ_TYPE_LEVEL_HIGH>;
 				clocks = <&clk IMX8MP_CLK_GPIO3_ROOT>;
 				gpio-controller;
 				#gpio-cells = <2>;

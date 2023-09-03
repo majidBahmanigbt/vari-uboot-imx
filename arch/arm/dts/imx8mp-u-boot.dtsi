@@ -50,10 +50,6 @@
 	u-boot,dm-spl;
 };
 
-&gpio3 {
-	status = "disabled";
-};
-
 &binman {
 	 u-boot-spl-ddr {
 		filename = "u-boot-spl-ddr.bin";

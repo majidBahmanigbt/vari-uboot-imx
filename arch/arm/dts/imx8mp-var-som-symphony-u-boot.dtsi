@@ -22,10 +22,6 @@
 	u-boot,dm-spl;
 };
 
-&gpio3 {
-	status = "disabled";
-};
-
 &ethphy0 {
 	reset-gpios = <&gpio1 10 GPIO_ACTIVE_LOW>;
 	reset-assert-us = <10000>;
