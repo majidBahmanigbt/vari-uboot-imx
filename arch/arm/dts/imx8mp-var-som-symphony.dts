@@ -155,6 +155,10 @@
 	status = "okay";
 };
 
+&gpio1 {
+	status = "disabled";
+};
+
 &usb_dwc3_1 {
 	dr_mode = "host";
 	status = "okay";
