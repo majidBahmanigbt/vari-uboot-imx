@@ -59,6 +59,10 @@
 	status = "okay";
 };
 
+&gic {
+	status = "disabled";
+};
+
 &i2c3 {
 	clock-frequency = <100000>;
 	pinctrl-names = "default", "gpio";
